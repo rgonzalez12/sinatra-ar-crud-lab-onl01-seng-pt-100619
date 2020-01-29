@@ -1,1 +1,5 @@
-<% @article.each do |article| %>
+<% @articles.each do |article| %>
+  <%= article.id %>
+  <%= article.title %>
+  <%= article.content %>
+  <% end %>
